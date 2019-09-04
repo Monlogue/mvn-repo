@@ -115,12 +115,8 @@
     </dependencies>
 
     <build>
-        <!--<finalName>lias-deliver-sdk</finalName>-->
+        <finalName>lias-deliver-sdk</finalName>
         <plugins>
-            <!--<plugin>-->
-                <!--<groupId>org.springframework.boot</groupId>-->
-                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-            <!--</plugin>-->
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.8.1</version>
@@ -140,9 +136,9 @@
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>maven-repo</repositoryName>
+                    <repositoryName>mvn-repo</repositoryName>
                     <!-- 对应github上创建的仓库名称 name -->
-                    <repositoryOwner>andy13134@outlook.com</repositoryOwner>
+                    <repositoryOwner>Monlogue</repositoryOwner>
                     <!-- github 仓库所有者 -->
                 </configuration>
                 <executions>
