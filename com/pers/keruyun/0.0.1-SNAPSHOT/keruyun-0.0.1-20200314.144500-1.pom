@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.pers</groupId>
-    <artifactId>deliver</artifactId>
+    <artifactId>keruyun</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>deliver</name>
+    <name>keruyun</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -115,7 +115,7 @@
     </dependencies>
 
     <build>
-        <finalName>lias-deliver-sdk</finalName>
+        <finalName>lias-keruyun-sdk</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -154,8 +154,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>6</source>
-                    <target>6</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
