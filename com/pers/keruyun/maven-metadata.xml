@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.pers</groupId>
-  <artifactId>deliver</artifactId>
+  <artifactId>keruyun</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200316132225</lastUpdated>
+    <lastUpdated>20200321064545</lastUpdated>
   </versioning>
 </metadata>
